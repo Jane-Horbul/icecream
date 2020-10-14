@@ -87,12 +87,18 @@ img {
 }
 .slider__points-list {
   display: flex;
+  list-style-type: none;
+  padding: 0;
   justify-content: center;
   color: #c7133e;
-  padding: 0px;
 }
 .slider__points-list-item {
   margin-left: 10px;
+  width: 4px;
+  height: 4px;
+  border: 1px solid #c7133e;
+  background-color: #c7133e;
+  border-radius: 50%;
 }
 .slider__adress {
   width: 290px;

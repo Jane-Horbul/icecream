@@ -81,3 +81,17 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.slider__adress {
+  width: 32px;
+}
+.slider__points {
+  width: 290px;
+}
+.slider__points-list {
+  display: flex;
+  justify-content: center;
+  color: #c7133e;
+}
+.slider__points-list-item {
+  margin-left: 10px;
+}

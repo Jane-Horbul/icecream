@@ -81,9 +81,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.slider__adress {
-  width: 32px;
-}
+
 .slider__points {
   width: 290px;
 }
@@ -91,7 +89,41 @@ img {
   display: flex;
   justify-content: center;
   color: #c7133e;
+  padding: 0px;
 }
 .slider__points-list-item {
   margin-left: 10px;
+}
+.slider__adress {
+  width: 290px;
+}
+.slider__adress-text {
+  width: 180px;
+  font-size: 14px;
+  line-height: 186%;
+  text-align: center;
+  font-weight: 500;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+.slider__adress-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: center;
+}
+.slider__adress-item {
+  margin-left: 10px;
+}
+.slider__adress-item--round {
+  margin-left: 10px;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+.slider__adress-item--img {
+  width: 12px;
 }
